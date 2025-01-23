@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class GestorAlumnos {
 	private ArrayList<Alumno> alumnos = new ArrayList<>();
 
-    public void añadirAlumno(Alumno alumno) {
+    public void a�adirAlumno(Alumno alumno) {
         alumnos.add(alumno);
         System.out.println("Alumno añadido: " + alumno);
     }
